@@ -16,6 +16,10 @@ body {
   background-color: #121214;
 }
 
+body * {
+  font-family: 'Inter', sans-serif;
+}
+
 main * {
   border: 1px solid red;
 }
@@ -25,4 +29,7 @@ main {
   max-width: 580px;
   width: 90%;
   margin: auto;
+}
+section {
+  color: white;
 }
