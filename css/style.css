@@ -6,6 +6,8 @@
 
 ul {
   list-style: none;
+  display: flex;
+  gap: 16px;
 }
 
 body {
@@ -19,10 +21,6 @@ body {
 body * {
   font-family: 'Inter', sans-serif;
   line-height: 160%;
-}
-
-main * {
-  border: 1px solid red;
 }
 
 main {
@@ -42,4 +40,14 @@ section h2 {
 section p {
   letter-spacing: -0.18px;
   color: #A1A1AA;
+}
+
+.games-list img {
+  width: 90px;
+  border-radius: 8px;
+}
+
+.channel-list img {
+  width: 70px;
+  border-radius: 50%;
 }
